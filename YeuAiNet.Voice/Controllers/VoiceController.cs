@@ -21,11 +21,16 @@ namespace YeuAiNet.Voice.Controllers
             {
                 return BadRequest("text");
             }
+            else if (text.Length > 200)
+            {
+                return BadRequest("text length > 200 characters");
+            }
             if (cache)
             {
                 var md5 = text.GetMD5Hash();
                 var prefixHash = md5.Substring(0, 4);
-                var cacheFileName = Path.Combine("Cache", prefixHash, md5 + ".mp3");
+                var folderName = Path.Combine("Cache", prefixHash);
+                var cacheFileName = Path.Combine(folderName, md5 + ".mp3");
                 if (File.Exists(cacheFileName))
                 {
                     logger.Info("Get voice from cache: {0} -> {1}", text, cacheFileName);
@@ -34,7 +39,7 @@ namespace YeuAiNet.Voice.Controllers
 
                 var mp3 = GoogleTTS.Request(text, Languague.Vietnamese);
 
-                Directory.CreateDirectory(prefixHash);
+                Directory.CreateDirectory(folderName);
                 using (var file = File.OpenWrite(cacheFileName))
                 using (var stream = new MemoryStream(mp3))
                 {
