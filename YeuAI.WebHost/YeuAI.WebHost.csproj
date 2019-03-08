@@ -132,5 +132,9 @@
       <Name>YeuAI.Common</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\index.html" />
+    <Content Include="Views\voice-tts.js" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

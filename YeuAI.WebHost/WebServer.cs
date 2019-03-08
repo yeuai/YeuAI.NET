@@ -39,7 +39,7 @@ namespace YeuAI.WebHost
         public bool Start(HostControl hc)
         {
             var vHostName = AppConfig.Get("HostName", "localhost");
-            var vPorts = AppConfig.Get("RunningPort", "8100");
+            var vPorts = AppConfig.Get("RunningPort", "9000");
             var logger = AppLogger.GetLogger();
 
             HostControl = hc;
