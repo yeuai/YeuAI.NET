@@ -1,9 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>vunb</Authors>
     <Company>YeuAI</Company>
+    <PackageLicenseUrl>https://github.com/vunb/YeuAiNet/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://docs.yeu.ai</PackageProjectUrl>
+    <PackageIconUrl></PackageIconUrl>
+    <RepositoryUrl>https://github.com/yeuai/YeuAiNet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>YeuAI,Chatbot,NLP,Crawler,Spider</PackageTags>
+    <Description>YeuAI - Text, Voice and Image Processing Library</Description>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Copyright>(c) YeuAI 2019</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
