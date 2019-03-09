@@ -38,13 +38,6 @@ namespace YeuAI.WebHost
                 var config = new HttpConfiguration();
                 config.MapHttpAttributeRoutes();
 
-                // Require authentication for all controllers
-                // If you don't want check authentication for api, just comment this below line.
-                //config.Filters.Add(new AuthorizeAttribute());
-
-                var jsonFormater = config.Formatters.OfType<JsonMediaTypeFormatter>().First();
-                jsonFormater.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
-
                 map.UseWebApi(config);
             });
 

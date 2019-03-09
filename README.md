@@ -1,2 +1,3 @@
-# YeuAiNet
-YeuAI.Net - Speech and Language Processing
+# YeuAI.NET
+
+A Library for Text, Voice and Image Processing
