@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>vunb</Authors>
+    <Description>YeuAI - Text, Voice and Image Processing Library</Description>
+    <Company>YeuAI</Company>
+    <Copyright>(c) YeuAI 2019</Copyright>
+    <PackageLicenseUrl>https://github.com/vunb/YeuAI.NET/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://docs.yeu.ai</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yeuai/YeuAI.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>YeuAI,Chatbot,NLP,Crawler,Spider</PackageTags>
+    <PackageReleaseNotes>Release the first version</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Owin" Version="5.2.7" />
+    <PackageReference Include="Microsoft.Owin.FileSystems" Version="4.0.1" />
+    <PackageReference Include="Microsoft.Owin.StaticFiles" Version="4.0.1" />
+    <PackageReference Include="NLog" Version="4.5.11" />
+    <PackageReference Include="YeuAI.Common" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

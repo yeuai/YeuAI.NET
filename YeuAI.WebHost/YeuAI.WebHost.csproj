@@ -131,6 +131,10 @@
       <Project>{4ecc2276-1746-405a-b763-1dcbda78df8f}</Project>
       <Name>YeuAI.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\YeuAI.WebApi\YeuAI.WebApi.csproj">
+      <Project>{40B398FC-C92F-490E-B95D-DA73C755810C}</Project>
+      <Name>YeuAI.WebApi</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\index.html" />

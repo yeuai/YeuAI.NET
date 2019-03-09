@@ -9,7 +9,7 @@ using System.Linq;
 using System.Net.Http.Formatting;
 using System.Web.Http;
 using YeuAI.Common;
-using YeuAI.Common.Http.Providers;
+using YeuAI.WebApi.Http.Providers;
 
 [assembly: OwinStartup(typeof(YeuAI.WebHost.Startup))]
 namespace YeuAI.WebHost

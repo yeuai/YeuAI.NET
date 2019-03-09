@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YeuAI.WebHost", "YeuAI.WebH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YeuAI.WebSpider", "YeuAI.WebSpider\YeuAI.WebSpider.csproj", "{1426CC29-3DB2-4E87-8E5C-D1DE6E546BD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YeuAI.WebApi", "YeuAI.WebApi\YeuAI.WebApi.csproj", "{40B398FC-C92F-490E-B95D-DA73C755810C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1426CC29-3DB2-4E87-8E5C-D1DE6E546BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1426CC29-3DB2-4E87-8E5C-D1DE6E546BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1426CC29-3DB2-4E87-8E5C-D1DE6E546BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B398FC-C92F-490E-B95D-DA73C755810C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B398FC-C92F-490E-B95D-DA73C755810C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B398FC-C92F-490E-B95D-DA73C755810C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B398FC-C92F-490E-B95D-DA73C755810C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

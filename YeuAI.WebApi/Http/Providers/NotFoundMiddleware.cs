@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YeuAI.Common.Http.Providers
+namespace YeuAI.WebApi.Http.Providers
 {
     public class NotFoundMiddleware : OwinMiddleware
     {

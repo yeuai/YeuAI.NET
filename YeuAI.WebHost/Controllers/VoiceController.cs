@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using System.Web.Http;
 using YeuAI.Common.Crypto;
-using YeuAI.Common.Http;
 using YeuAI.Common.Http.Result;
 using YeuAI.Common.Voice;
+using YeuAI.WebApi.Http;
 using YeuAI.WebHost;
 
 namespace YeuAiNet.Voice.Controllers

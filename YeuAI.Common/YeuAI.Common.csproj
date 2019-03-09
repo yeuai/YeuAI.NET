@@ -4,23 +4,20 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>vunb</Authors>
     <Company>YeuAI</Company>
-    <PackageLicenseUrl>https://github.com/vunb/YeuAiNet/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/vunb/YeuAI.NET/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://docs.yeu.ai</PackageProjectUrl>
     <PackageIconUrl></PackageIconUrl>
-    <RepositoryUrl>https://github.com/yeuai/YeuAiNet</RepositoryUrl>
+    <RepositoryUrl>https://github.com/yeuai/YeuAI.NET</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>YeuAI,Chatbot,NLP,Crawler,Spider</PackageTags>
     <Description>YeuAI - Text, Voice and Image Processing Library</Description>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Copyright>(c) YeuAI 2019</Copyright>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Separating dependent libraries</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.Owin" Version="5.2.7" />
-    <PackageReference Include="Microsoft.Owin.FileSystems" Version="4.0.1" />
-    <PackageReference Include="Microsoft.Owin.StaticFiles" Version="4.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
     <PackageReference Include="NLog" Version="4.5.11" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />

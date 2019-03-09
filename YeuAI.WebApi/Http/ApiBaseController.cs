@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Web.Http;
 using YeuAI.Common.Logging;
 
-namespace YeuAI.Common.Http
+namespace YeuAI.WebApi.Http
 {
     [ApiExceptionFilter]
     public abstract class ApiBaseController : ApiController

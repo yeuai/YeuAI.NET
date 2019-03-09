@@ -1,6 +1,6 @@
 using Microsoft.Owin.StaticFiles.ContentTypes;
 
-namespace YeuAI.Common.Http.Providers
+namespace YeuAI.WebApi.Http.Providers
 {
     public class CustomContentTypeProvider : FileExtensionContentTypeProvider
     {
