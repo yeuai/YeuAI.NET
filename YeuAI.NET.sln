@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2041
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YeuAI.Core", "YeuAI.Core\YeuAI.Core.csproj", "{EF712C29-A55F-414E-BB26-28084AED2B47}"
 EndProject
@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YeuAI.WebHost", "YeuAI.WebH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YeuAI.WebSpider", "YeuAI.WebSpider\YeuAI.WebSpider.csproj", "{1426CC29-3DB2-4E87-8E5C-D1DE6E546BD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YeuAI.WebApi", "YeuAI.WebApi\YeuAI.WebApi.csproj", "{40B398FC-C92F-490E-B95D-DA73C755810C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YeuAI.WebApi", "YeuAI.WebApi\YeuAI.WebApi.csproj", "{40B398FC-C92F-490E-B95D-DA73C755810C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

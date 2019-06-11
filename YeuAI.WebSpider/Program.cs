@@ -1,13 +1,17 @@
-﻿using YeuAI.Spider.Spiders;
+﻿
+using DotnetSpider;
+using System;
+using YeuAI.WebSpider.Spiders;
 
 namespace YeuAI.WebSpider
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        static void Main(string[] args)
         {
-            var spider = new BaiduSearchSpider();
-            spider.Run();
+            var spider = Spider.Create<GithubSpider>();
+            spider.RunAsync();
+            Console.Read();
         }
     }
 }
